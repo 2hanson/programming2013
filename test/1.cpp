@@ -73,26 +73,6 @@ string add(string str1,string str2)
     return result;  
 }
 
-//
-bool isok()
-{
-    string maxnum = add(n, p);  
-    string minnum = "3";
-
-    //<3
-    if (comp(minnum, m) == -1)
-    {
-        return false;
-    }
-    //> maxnum
-    if (comp(m, maxnum) == -1)
-    {
-        return false;
-    }
-
-    return true;
-}
-
 int main()
 {
     cin>>n>>m;
